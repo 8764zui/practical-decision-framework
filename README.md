@@ -2,12 +2,11 @@
 
 > 实用主义决策框架 — 数据驱动的教育规划与职业决策助手
 
-[![CherryStudio Skill](https://img.shields.io/badge/CherryStudio-Skill-orange)](https://cherrystudio.ai)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## 概述
 
-一个专注教育规划与职业决策场景的 **CherryStudio 技能包**。基于结构化知识注入和 research-first 工作流，为大语言模型提供：
+一个专注教育规划与职业决策场景的 **AI Agent 技能包**。基于结构化知识注入和 research-first 工作流，为大语言模型提供：
 
 - **5 个核心心智模型** — 社会筛子论、选择 > 努力、就业倒推法、阶层现实主义、传播有效性
 - **8 条决策启发式** — 从「连续追问」到「10年后压迫测试」的完整决策链路
@@ -16,23 +15,21 @@
 
 ## 安装
 
-### CherryStudio
-
 ```bash
 git clone https://github.com/8764zui/practical-decision-framework.git
 ```
 
-将 `practical-decision-framework` 目录放入 CherryStudio 的 Skills 文件夹，或在 CherryStudio 中通过 **Settings → Skills → Import** 导入。
+将 `SKILL.md` 挂载到任意 AI Agent 应用（如 CherryStudio、OpenClaw、Claude Code 等）的 Skill / 系统提示词模块即可。
 
 ### 依赖
 
-- CherryStudio（任意支持 MCP 工具的版本）
-- MCP 工具：`WebSearch`（数据检索核心依赖）
-- 可选：`Browser`、`Agent Memory`
+- 任意支持 Skill / 系统提示词注入的 AI Agent 应用
+- 建议配套：联网搜索工具（数据检索核心依赖）
+- 可选：浏览器工具、持久化记忆
 
 ## 使用方式
 
-安装后，在 CherryStudio 对话中提及以下场景即可自动触发：
+安装后，在对话中提及以下场景即可触发：
 
 | 场景 | 示例提问 |
 |------|----------|
